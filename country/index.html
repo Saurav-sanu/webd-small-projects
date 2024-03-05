@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Capitals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div>
+        <h1>Country</h1>
+    </div>
+    <div class="coun">
+        <div>
+            <label for="country">Select a country:</label>
+        </div>
+        <div>
+            <select id="country" onchange="Capital()">
+                <option value="none">-- Select a country --</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="japan">Japan</option>
+            </select>
+        </div>
+    </div>
+    <p>Capital:<span id="capital"></span></p>
+</div>
+<script>
+    function Capital() {
+        var countrySelect = document.getElementById("country");
+        var capitalSpan = document.getElementById("capital");
+        var selectedCountry = countrySelect.value;
+
+        switch (selectedCountry) {
+            case "usa":
+                capitalSpan.textContent = "Washington, D.C.";
+                break;
+            case "canada":
+                capitalSpan.textContent = "Ottawa";
+                break;
+            case "france":
+                capitalSpan.textContent = "Paris";
+                break;
+            case "germany":
+                capitalSpan.textContent = "Berlin";
+                break;
+            case "japan":
+                capitalSpan.textContent = "Tokyo";
+                break;
+            default:
+                capitalSpan.textContent = "";
+        }
+    }
+</script>
+   
+</body>
+</html>

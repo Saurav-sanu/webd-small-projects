@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1180px;
+    margin-inline:auto; 
+}
+.container-header{
+    max-width:  800px;
+    margin-inline:auto; 
+    text-align: center;
+    letter-spacing: 1px;
+}
+.container-footer{
+    max-width:  800px;
+    margin-left: 300px; 
+    margin-right: 400px;
+    text-align: center;
+     
+}
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.9)) ,url("back.jpg");
+     
+    background-size: 1520px 720px;
+    background-repeat: no-repeat;background-color: black;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+
+}
+nav svg{
+    width: 167px;
+    height: 49px;
+    fill: #E50914;
+    margin-left: 56px;
+    margin-top: 28px;
+ 
+}
+.flex{
+    display: flex;
+   
+}
+nav{
+    justify-content: space-between;
+}
+.button-right{
+    margin-top: 30px;
+    margin-right: 56px;
+    
+     
+
+}
+button{
+    padding: 7px 17px;
+    border-radius: 3px;
+    font-size: medium;
+}
+.first{
+    margin-right: 20px;
+    border: 1px solid #AAAAAA;
+    color: #FFFFFF;
+    background-color: black;
+}
+.second{
+    background-color: #E50914;
+    color: white;
+}
+
+.backgroung_image{
+    background-image: url("back.jpg");
+    width: max-content;
+  
+    
+}
+
+
+header{
+    display: flex;
+    margin-top: 170px;
+    flex-direction: column; 
+     
+   
+     
+    
+}
+.header-top{
+    width: 800px;
+    align-items: center;
+  
+
+}
+.header-top h1{
+    font-size: 3.9rem;
+    margin-bottom: 10px;
+}
+.header-top p{
+    margin-top:30px;
+    margin-bottom: 15px;
+}
+
+.email{
+    width: 500px;
+    height: 70px;
+    padding: 10px;
+    font-size: medium;
+}
+.get-start{
+    position: relative;
+    width: auto;
+    height: 72px;
+    
+    margin-left: -6px;
+    padding: 20px;
+    font-size: 2rem;
+    display: inline;
+    color: white;
+    background-color: #E50914; 
+    top: 10px;
+    font-weight: 250;
+    margin-block: 5px;
+
+}
+.get-start:hover{
+    background-color:  #f40612;
+}
+.header-top p{
+    letter-spacing: 0px;
+    font-size: 1.1 rem;
+    font-weight: 300;
+
+}
+.header-top h3{
+    font-weight: 300;
+}
+.enter-mail{
+    margin-bottom: 127px;
+}
+hr{
+    border: 6px solid #222222;
+}
+
+.tamplate{
+    margin-block: 70px;
+    gap: 10px;
+    
+}
+.left-part h2{
+    font-size: 3.2rem;
+}
+.left-part{
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+.left-part h3{
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+.first-fot{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+    
+
+}
+.first-fot a{
+    text-decoration: none;
+    color: #737373;
+    font-size: .85rem;
+}
+
+.footer-main{
+    margin-block: 70px;
+    justify-content: space-between;
+}
+.first-fot a:hover{
+    text-decoration: underline;
+}
+.byIshant{
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+.byIshant i{
+    color: #E50914;
+    margin-left: 4px;
+}

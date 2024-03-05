@@ -1,0 +1,183 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.header{
+    transition: all 2500ms;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(https://t4.ftcdn.net/jpg/05/47/85/65/360_F_547856588_WTKqn3IcRZ2POen9mEbhXT27HobWhl67.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: cover; */
+    /* background: linear-gradient(violet, indigo, blue, green, orange, red); */
+}
+
+.glass
+{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.749), rgba(255, 255, 255, 0) );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(54, 52, 52, 0.367);
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.37);
+
+}
+
+.container-1
+{
+    width: 28%;
+    height: 40%;
+    /* background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg); */
+    /* background: url(/images/asset\ 2.jpeg); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(red, blue); */
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    border: 1px solid rgba(112, 105, 105, 0.555);
+    box-shadow: 0px 8px 32px 0px rgba(61, 58, 58, 0.8);
+}
+
+.container-1-div
+{
+    position: relative;
+    top: 20px;
+    width: 85%;
+    height: 30%;
+}
+
+
+.container-1 a
+{
+    position: relative;
+    bottom: 200px;
+    color: black;
+}
+
+.form
+{
+    width: 28%;
+    height: 40%;
+    padding: 5px 25px;
+
+    /* background-color: white; */
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    border: 1px solid rgba(112, 105, 105, 0.555);
+    box-shadow: 0px 8px 32px 0px rgba(61, 58, 58, 0.8);
+}
+
+input{
+    background: transparent;
+}
+
+.form h3
+{
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+}
+
+.input-group
+{
+    display: flex;
+    align-items: center;
+    margin: 3% auto;
+
+    padding: 5px 10px;
+
+    width: 90%;
+    height: 40px;
+    border-radius: 40px;
+    /* background-color: rgb(164, 137, 203);
+     */
+     /* background-color: aqua; */
+}
+
+
+.input-group input
+{
+    margin-left:12px ;
+    border: none;
+    outline: none;
+    width: 80%;
+    /* background-color: rgb(164, 137, 203); */
+    /* background-color: aqua; */
+
+}
+
+::placeholder
+{
+    font-size: 1rem;
+    color: rgb(50, 48, 48);
+}
+
+.form h4
+{
+    font-size: 0.9rem;
+    margin-left: 22px;
+    margin-bottom: 13px;
+    color: rgb(50, 48, 48);
+}
+
+#login-btn
+{
+    font-size: 1.2rem;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0px 4px 10px 0px rgb(50, 48, 48, 0.4);
+
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 10px;
+
+}
+
+.input-group span{
+    /* position: absolute; */
+    bottom: 10px;
+    right: 15px;
+    font-size: 0.8rem;
+    color: rgb(63, 13, 123);
+}
+
+.input-group span i
+{
+    color: rgb(63, 13, 123);
+    font-size: 20px;
+}
+
+#btnerror
+{
+    color: rgb(63, 13, 123);
+    font-size: 15px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style_sign.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="sign-con flex">
+
+        <form class="sign-form">
+            <h2>Register</h2>
+
+            <div class="sign-input">
+                <input type="text" placeholder="Name" id="sign-input-name" onkeyup ="validatename()"  >
+                <span id="input-name-error"></span>
+            </div>
+
+            <div class="sign-input">
+                <input type="text" placeholder="Roll No." id="sign-input-roll" onkeyup="validateroll()" >
+                <span id="input-roll-error"></span>
+            </div>
+
+            <div class="sign-input">
+                <input type="number" placeholder="Semester" id="sign-input-sem" onkeyup="validatesem()">
+                <span id="input-sem-error"></span>
+            </div>
+
+            <div class="sign-input">
+                <input type="text" placeholder="Branch" id="sign-input-branch" onkeyup="validatebranch()" >
+                <span id="input-branch-error"></span>
+            </div>
+
+            <div class="sign-input">
+                <input type="email" placeholder="Personal email" id="sign-input-email" onkeyup="validateemail()">
+                <span id="input-email-error"></span>
+            </div>
+
+            <div class="sign-input">
+                <input type="password" placeholder="Password" id="sign-input-password" onkeyup="validatepassword()" >
+                <span id="input-password-error"></span>
+            </div>
+
+            <button id="cancel">Cancel</button>
+            <button id="submit" onclick="return validateform()" >Submit</button>
+            <span id="submit-error"> </span>
+
+        </form>
+    </div>
+
+    <script src="script_sign.js"></script>
+
+</body>
+</html>

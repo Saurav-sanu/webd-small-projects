@@ -1,0 +1,27 @@
+.card{
+    width:375px;
+    background-color: beige;
+    border:2px solid black;
+    border-radius: 25px;
+    padding:10px;
+    margin:10px;
+}
+img{
+    width: 100%;
+    border-radius:25px;
+}
+#pets{
+    display:flex;
+    justify-content: space-evenly;
+}
+h4{
+    text-align: center;
+}
+span{
+    color:lightcoral;
+}
+@media(max-width:375px){
+    #pets{
+        flex-wrap:wrap;
+    }
+}

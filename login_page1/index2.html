@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            margin: 0 auto;
+            margin-top: 100px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        input[type=text], input[type=email], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="your_registration_script.php" method="POST">
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter a username" id="username" required>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter your email" id="email" required>
+            <br>
+            <label for="roll no"><b>Roll no</b></label>
+            <input type="text" placeholder="Enter your roll no" id="password" required>
+            <br>
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter a password" id="password" required>
+            <br>
+        </form>
+        <input type="submit" onclick="test()"></input>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

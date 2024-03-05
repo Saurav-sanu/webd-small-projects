@@ -1,0 +1,19 @@
+.box{
+    height:200px;
+    width:200px;
+    background-color: bisque;
+    color:red;
+    border:2px solid black;
+    text-align:center;
+    border-radius: 25px;
+}
+.one{
+    background-color: yellow;
+    position: relative;
+    z-index: 1;
+}
+.two{
+    background-color: chocolate;
+    position: relative;
+    bottom:50px;
+}

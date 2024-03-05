@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height:500px;
+    width:300px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+}
+
+.card img{
+    height:30%;
+    width:100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding:10px;
+    align-items: center;
+    text-align:center;
+}
+.new{
+    height:15%;
+    width:80%;
+    /* background-color: blue; */
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:20px;
+}
+.b img{
+    height:30px;
+    width:30px;
+    border-radius:20px;
+    margin-left: 5px;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+#paymentbutton{
+    width:80%;
+    height:9%;
+    background-color: purple;
+    color:white;
+    /* background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+    border-radius:10px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.b p{
+    font-size:0.9rem;
+    color:white;
+    font-weight: 100;
+}
+.cancelbox a{
+    text-decoration: none;
+    color:rgb(63, 49, 49);
+    font-weight: bold;
+}
+.cancelbox{
+    margin-bottom: 10px;
+}
+.c a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
